@@ -1,0 +1,17 @@
+[data-switch-btn] svg{
+    font-size: 23px;
+    display:none;
+}
+
+[data-toggle-service-details].active svg{
+    transform:rotate(180deg);
+    display: inline-block;
+}
+
+tr[data-service-details]{
+    display:none;
+    box-shadow:rgba(0, 0, 0, 0.1) 0px 25px 8px -20px inset;
+    -webkit-box-shadow:rgba(0, 0, 0, 0.1) 0px 25px 8px -20px inset;
+    -moz-box-shadow:rgba(0, 0, 0, 0.1) 0px 25px 8px -20px inset;
+    -o-box-shadow:rgba(0, 0, 0, 0.1) 0px 25px 8px -20px inset;
+}

@@ -1,0 +1,8 @@
+{
+    "version"     : "1.0.0",
+    "name"        : "Services",
+    "menu"        : "Services",
+    "alias"       : "services",
+    "os"          : ["ubuntu", "centos", "rhel", "debian", "cloudlinux", "fedora"],
+    "permissions" : ["service.list"]
+}
